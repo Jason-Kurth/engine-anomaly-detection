@@ -1,5 +1,9 @@
 # Ship Engine Anomaly Detection
-This project explores anomaly detection methods to identify abnormal behaviour in ship engine sensor data. Detecting unusual operating patterns early can support predictive maintenance and reduce operational risk.
+
+## Problem
+Modern ship engines generate large volumes of sensor data, but identifying abnormal operating behaviour that may signal mechanical issues is difficult using simple monitoring rules.
+
+This project applies unsupervised anomaly detection techniques to identify unusual engine behaviour patterns in sensor telemetry data.
 
 ## Method
 The dataset contains engine telemetry measurements such as RPM, pressures, and temperatures. After exploratory analysis, three anomaly detection approaches were compared:
@@ -15,8 +19,6 @@ All methods successfully detected abnormal engine behaviour patterns, with Isola
 
 ## Tools
 Python • Pandas • Scikit-learn • Matplotlib • Seaborn • PCA
-
-
 
 ## Outputs
 - Anomaly detection models identifying abnormal engine observations  

@@ -1,23 +1,24 @@
-# Engine Anomaly Detection
+# Ship Engine Anomaly Detection
 
-## Problem
-Detect abnormal engine behaviour in high-dimensional sensor datasets.
-
-Early identification of anomalies can help identify potential mechanical failures.
+This project explores anomaly detection methods to identify abnormal behaviour in ship engine sensor data. Detecting unusual operating patterns early can support predictive maintenance and reduce operational risk.
 
 ## Approach
-- Data cleaning and feature engineering
-- Isolation Forest anomaly detection
-- One-Class SVM comparison
-- Visualisation of anomaly patterns
 
-## Tools
-Python, Pandas, scikit-learn, Isolation Forest, One-Class SVM
+The dataset contains engine telemetry measurements such as RPM, pressures, and temperatures. After exploratory analysis, three anomaly detection approaches were compared:
 
-## Outputs
-- Jupyter Notebook containing full analysis
-- Summary report explaining results
+- Interquartile Range (IQR) statistical outlier detection  
+- One-Class Support Vector Machine (OCSVM)  
+- Isolation Forest  
+
+Principal Component Analysis (PCA) was used to visualise the detected anomalies.
+
+## Outcome
+
+All methods identified abnormal engine behaviour patterns, with Isolation Forest providing the most practical approach for multivariate anomaly detection.
+
+Such a system could support maintenance teams by flagging unusual engine conditions before failures occur.
 
 ## Files
-engine_anomaly_detection_analysis.ipynb  
-engine_anomaly_detection_project_summary.pdf
+
+- `engine_anomaly_detection_analysis.ipynb` — full implementation  
+- `engine_anomaly_detection_project_summary.pdf` — detailed report

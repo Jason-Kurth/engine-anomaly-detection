@@ -12,11 +12,19 @@ The dataset contains engine telemetry measurements such as RPM, pressures, and t
 
 Principal Component Analysis (PCA) was used to visualise the detected anomalies.
 
+## Tools
+
+Python • Pandas • Scikit-learn • Matplotlib • Seaborn • PCA
+
 ## Outcome
 
-All methods identified abnormal engine behaviour patterns, with Isolation Forest providing the most practical approach for multivariate anomaly detection.
+All methods successfully detected abnormal engine behaviour patterns, with Isolation Forest providing the most practical approach for multivariate anomaly detection.
 
-Such a system could support maintenance teams by flagging unusual engine conditions before failures occur.
+## Outputs
+
+- Anomaly detection models identifying abnormal engine observations  
+- PCA visualisations comparing anomaly detection methods  
+- Notebook implementation and written project report
 
 ## Files
 
